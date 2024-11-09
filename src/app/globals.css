@@ -1,21 +1,82 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+    font-family: mulish;
+    src: url(./fonts/Mulish/static/Mulish-Light.ttf);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+p{
+    font-family: mulish;
+}
+h4{
+    font-family: mulish;
+}
+input{
+    font-family: mulish;
+}
+.input1:focus {
+    border: 3px solid #fff9e5;
+    outline: none;
   }
+button{
+    font-family: mulish;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.continuar{
+    box-shadow: 0 8px 20px -15px rgba(59, 65, 68, .7);
+}
+span{
+    font-family: mulish;
+}
+.boton2:focus {
+    border: 1px solid #8799d3;
+    outline: none;
+}
+.boton3:focus{
+    border: 1px solid #e8867d;
+    outline: none;
+}
+.fondo{
+    background-image: url(./inmobiliariafondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fondotrans{
+    background: linear-gradient(180deg, rgba(0, 0, 0, .7) 0, transparent);
+}
+.titulo{
+    text-shadow: 0 0 3px #000;
+}
+button{
+    font-family: mulish;
+}
+.line {
+    position: relative;
+    display: inline-block;
+}
+  
+.line::before,
+.line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 230px;
+    height: 1px;
+    background-color: #efefef;
+    transform: translateY(-50%);
+}
+  
+.line::before {
+    left: 30px; /* Este es el espacio antes de la letra */
+}
+  
+.line::after {
+    right: 30px; /* Este es el espacio después de la letra */
+}
+select {
+    outline: none;
+}
+input:focus{
+    outline: none;
 }
