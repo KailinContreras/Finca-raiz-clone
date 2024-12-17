@@ -1,14 +1,16 @@
 'use client';
+import Footer from '@/Components/Footer';
 import Header from '@/Components/Header'
+import Main from '@/Components/Main';
 import SearchSection from '@/Components/SearchSection'
-import React, { useState } from 'react'
-
 
 const page = () => {
   return (
-    <div className='w-full h-screen bg-[#fafafa]'>
+    <div className='w-full h-screen'>
         <Header/>
         <SearchSection/>
+        <Main/>
+        <Footer/>
     </div>
   )
 }
