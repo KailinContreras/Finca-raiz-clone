@@ -1,8 +1,8 @@
 'use client';
-import Footer from '@/Components/Footer';
-import Header from '@/Components/Header'
-import Main from '@/Components/Main';
-import SearchSection from '@/Components/SearchSection'
+import Footer from '@/components/Footer';
+import Header from '@/components/Header'
+import Main from '@/components/Main';
+import SearchSection from '@/components/SearchSection'
 
 const page = () => {
   return (
