@@ -1,7 +1,7 @@
 'use client';
-import Date from '@/components/Date';
-import Header from '@/components/Header';
-import Nav from '@/components/Nav'
+import Date from '@/app/components/Date';
+import Header from '@/app/components/Header';
+import Nav from '@/app/components/Nav'
 import React from 'react';
 
 const page = () => {
